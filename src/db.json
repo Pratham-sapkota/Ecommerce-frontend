@@ -1,0 +1,80 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Men's Casual T-Shirt",
+            "description": "Comfortable cotton t-shirt available in various colors. Perfect for casual wear.",
+            "price": 19.99,
+            "category": "Men's Clothing",
+            "size": ["S", "M", "L", "XL"],
+            "color": ["Black", "White", "Blue", "Red"],
+            "rating": 4.2,
+            "stock": 150,
+            "images": [
+                "https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "https://images.pexels.com/photos/2112648/pexels-photo-2112648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Women's Denim Jacket",
+            "description": "Stylish denim jacket with a slim fit design. Suitable for all seasons.",
+            "price": 49.99,
+            "category": "Women's Clothing",
+            "size": ["XS", "S", "M", "L"],
+            "color": ["Denim Blue", "Black"],
+            "rating": 4.8,
+            "stock": 45,
+            "images": [
+                "https://media.jag.com.au/image/upload/c_fill,f_auto,h_785,q_auto,w_628/v1699506919/media/image/jms201071_fadedvintage_a.jpg",
+                "https://www.sotf.com/upload/articoli/zoom/GIACCA-IN-DENIM-CON-PATCH-ACNE-STUDIOS_66344.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Unisex Hoodie",
+            "description": "Cozy hoodie with a front pocket and adjustable drawstring hood. Available in multiple colors.",
+            "price": 39.99,
+            "category": "Unisex Clothing",
+            "size": ["S", "M", "L", "XL", "XXL"],
+            "color": ["Gray", "Navy", "Green", "Maroon"],
+            "rating": 4.5,
+            "stock": 100,
+            "images": [
+                "https://www.independenttradingco.com/cdn/shop/products/PRM4500C-PCLY_800x.jpg?v=1622152306",
+                "https://www.independenttradingco.com/cdn/shop/products/PRM4500MW-BLK-1_400x.jpg?v=1590520492"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Women's Summer Dress",
+            "description": "Lightweight and breathable summer dress with floral print. Ideal for warm weather.",
+            "price": 34.99,
+            "category": "Women's Clothing",
+            "size": ["S", "M", "L"],
+            "color": ["Yellow", "Pink", "White"],
+            "rating": 4.7,
+            "stock": 60,
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_aUcnPjWp0Xg1nKnsDgG_dl_KzS04iWq0NQ&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbQlMp81aHZwsGwMODf6o7xu2pHoEtPQKAuQ&s"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Men's Chino Pants",
+            "description": "Classic fit chino pants made from durable fabric. Suitable for both casual and formal occasions.",
+            "price": 44.99,
+            "category": "Men's Clothing",
+            "size": ["30", "32", "34", "36", "38"],
+            "color": ["Khaki", "Navy", "Black"],
+            "rating": 4.3,
+            "stock": 75,
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQ7r5g_WtEdWYuYM4rnN3YwaibYoLXpCaQQ&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRnI9AOXunw3qTMEj7x9wiLZ55pcEhj-iPw&s"
+            ]
+        }
+    ]
+    
+}
