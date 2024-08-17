@@ -40,7 +40,7 @@ function HomePage(){
             </div>
             <div className="my-16">
                 <h1 className="text-center font-bold xl:text-5xl  text-3xl text-purple-600">List Of Products</h1>
-                <ProductList value={citizenImage} />
+                <ProductList />
             </div>
         </div>
     )
