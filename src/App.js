@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import { useContext, useEffect } from "react";
 import './index.css';
 import {ProductContext} from "./context/ProductContext";
+import Footer from "./components/Footer";
 function App(){
     const {fetchProductDetails} = useContext(ProductContext)
     useEffect(()=>{
@@ -17,6 +18,7 @@ function App(){
         <div>
             <NavBar />
             <HomePage />
+            <Footer />
         </div>
     )
 }
