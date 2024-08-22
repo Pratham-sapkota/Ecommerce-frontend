@@ -4,6 +4,9 @@ import { useContext, useEffect } from "react";
 import './index.css';
 import {ProductContext} from "./context/ProductContext";
 import Footer from "./components/Footer";
+import { Routes,Route } from "react-router-dom";
+import Products from "./components/product/Products";
+
 function App(){
     const {fetchProductDetails} = useContext(ProductContext)
     useEffect(()=>{
@@ -15,10 +18,15 @@ function App(){
         fetchData();
     },[fetchProductDetails])
     return (
-        <div>
+        <div className="relative">
             <NavBar />
-            <HomePage />
+            {/* <HomePage /> */}
+            <Routes>
+                <Route path="/products" element={<Products />} />
+                <Route path="" element={<HomePage />} />
+            </Routes>
             <Footer />
+            
         </div>
     )
 }

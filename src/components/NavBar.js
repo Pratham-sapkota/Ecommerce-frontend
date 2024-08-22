@@ -1,6 +1,7 @@
 import SearchBar from "./SearchBar/SearchBar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function NavBar(){
 
@@ -14,8 +15,8 @@ function NavBar(){
             </div>
             <div className="basis-1/4">
                 <ul className="hidden xl:flex flex-row flex-wrap font-semibold  text-white space-x-20 hover:cursor-pointer ">
-                    <li className="hover:underline hover:underline-offset-8 hover:delay-300">Home</li>
-                    <li className="hover:underline hover:underline-offset-8 hover:delay-300">Product</li>
+                    <li className="hover:underline hover:underline-offset-8 hover:delay-300"><Link to="">Home</Link></li>
+                    <li className="hover:underline hover:underline-offset-8 hover:delay-300"><Link to="/products">Product</Link></li>
                     <li className="hover:underline hover:underline-offset-8 hover:delay-300">Contact</li>
                 </ul>
                 <div className=" xl:hidden text-right flex-nowrap">
