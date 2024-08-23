@@ -1,0 +1,1 @@
+//here we will create main product details page , where we see details of product ,rate it and add to cart

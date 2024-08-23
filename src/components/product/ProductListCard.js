@@ -2,15 +2,9 @@ function ProductListCard({name,image,description,price,rating}){
     // const {products} = useContext(ProductContext);
     
     return(
-        <div className="container max-w-1/4  flex flex-col  rounded-none hover:shadow-2xl m-3 cursor-pointer">
+        <div className="container max-w-1/4 rounded-none hover:shadow-2xl m-3 cursor-pointer">
             <div className="size-[28vh]"><img src={image} alt="card" className="rounded-none  w-full h-full object-fill" /></div>
-            {/* <div className="flex flex-col justify-between px-6 py-4 h-48 "> */}
-                {/* <div className="my-1"><h1 className="font-bold text-xl text-sky-600"> {name}</h1></div> */}
-                {/* <div className="my-1">{rating}</div> */}
-                {/* <div className="my-1"><p className="italic text-sm"> {description} </p></div> */}
-                {/* <div className="my-1"><h2 className="font-bold">{price}</h2></div> */}
-
-            {/* </div> */}
+           
         </div>
     )
 }

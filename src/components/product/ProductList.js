@@ -2,17 +2,13 @@ import ProductListCard from "./ProductListCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCaretLeft, faSquareCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { ProductContext } from "../../context/ProductContext";
-import { useContext, useRef, useState } from "react";
+import { useContext, useRef} from "react";
 
+//displays list of products in home page where we can slide to see , can later be used to create new , hot and specific category
 function ProductList(props){
-    const [indexes,showNewIndex]= useState(0);
     const {products}= useContext(ProductContext)
     const ref= useRef(null);
 
-    // const scroll= (scrollOffset)=>{
-    //     console.log(scrollOffset)
-    //     ref.current.scroll(scrollOffset,0)
-    // }
     const scrollLeft=()=>{
         if(ref.current){
             ref.current.scrollBy({left:-200})
