@@ -27,7 +27,7 @@ function HomePage(){
         
     }
     return (
-        <div className="grid grid-cols-1 m-5">
+        <div className="grid grid-cols-1 m-5 select-none">
             <div className="relative h-[70vh] bg-cover bg-center rounded m-3 shadow-2xl" style={{ backgroundImage: `url(${image[count]})` }}>
             <div className="absolute inset-0  bg-black opacity-50"></div>
                 <Slider value={image[count]} />
@@ -38,7 +38,7 @@ function HomePage(){
                     <FontAwesomeIcon icon={faSquareCaretRight} className="size-9 md:size-12" onClick={onClickRight}/>
                 </div>
             </div>
-            <div className="my-16">
+            <div className="relative my-16">
                 <h1 className="text-center font-bold xl:text-5xl  text-3xl text-purple-600">List Of Products</h1>
                 <ProductList />
             </div>
