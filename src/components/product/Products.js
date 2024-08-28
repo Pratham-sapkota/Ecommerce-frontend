@@ -13,7 +13,7 @@ function Products(){
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-6 bg-gray-50">
         {
                     products.map((product,index)=>(
-                        <ProductCard  key={index} name={product.name} image={product.images[0]} description={product.description} price={product.price} rating={product.rating} />
+                        <ProductCard  key={index} id={product.id} name={product.name} image={product.images[0]} description={product.description} price={product.price} rating={product.rating} />
                     ))
                 }
         </div>

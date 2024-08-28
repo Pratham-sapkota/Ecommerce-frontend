@@ -4,14 +4,14 @@ import { faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 function Footer(){
     return (
         <div className="  w-full bg-purple-500 flex flex-col  overflow-hidden ">
-            <div className="flex flex-row justify-between px-12 font-semibold my-4 text-white">
+            <div className="flex flex-row justify-between px-2 md:px-5 lg:px-8 xl:px-10 2xl:px-12 font-semibold my-4 text-white">
                 <div>
                     <ul className="space-y-4">
                         <li>Home</li>
                         <li>Products</li>
                     </ul>
                 </div>
-                <div className="my-5" >
+                <div className="m-5 w-fit" >
                     <ul className="flex flex-row space-x-4">
                         <li><FontAwesomeIcon icon={faFacebook} /></li>
                         <li><FontAwesomeIcon icon={faInstagram} /></li>

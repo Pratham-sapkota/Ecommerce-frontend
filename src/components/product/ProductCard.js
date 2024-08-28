@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
+
 // card for main prodcut page
-function ProductCard({name,image,price,rating}){
+function ProductCard({id,name,image,price,rating}){
     return(
+        <Link to={`/products/details/${id}`}>
         <div className="container h-[60vh] flex flex-col my-4  hover:shadow-xl p-2 ">
             <div className="h-2/3 overflow-hidden ">
                 <img src={image} alt="product visual "  className="h-full w-full "/>
@@ -12,6 +15,7 @@ function ProductCard({name,image,price,rating}){
             </div>
             
         </div>
+        </Link>
     )
 
 }
